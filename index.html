@@ -14,6 +14,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -22,7 +24,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <!-- LOGO -->
             <div class="container-fluid">
-                <a class="logo" href="#HouseLegal"><img src="./media/logo.png" height="80" weight="80"
+                <a class="logo" href="#HouseLegal"><img src="./media/logo.png" height="60" weight="60"
                         alt="House Legal"></a>
                 <a class="navbar-brand" href="#HouseLegal"><b>House Legal</b></a>
                 <!-- MENÚ -->
@@ -34,57 +36,87 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#somos">¿Quiénes somos</a>
+                            <a class="nav-link active" aria-current="page" href="#somos">Quiénes somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#precios">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#requisitos">Requisitos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#solicitud">Contrata</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                     <div class="social">
-                        <a href="tel:+525500000000"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
-                            </svg> +52 55 0000 0000 </a>
+                        <a href="https://api.whatsapp.com/send?phone=525554684980&text=Hola+House+Legal.+Tengo+interés+en+los+servicios+de+protección+jurídica+de+arrendamiento"
+                            target="blank"><img src="./media/wp_logo.png" height="50" weight="50" alt="House Legal">
+                            <path
+                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                            </img>
+                        </a>
+                        <a href="mailto:contacto@houselegal.com.mx"
+                            target="blank"><img src="./media/mail_logo.png" height="50" weight="50" alt="House Legal">
+                            </img>
+                        </a>
+                        <a href="tel:+525554684980"
+                            target="blank"><img src="./media/tel_logo.png" height="50" weight="50" alt="House Legal">
+                            </img>
+                        </a>
                     </div>
         </nav>
         </div>
     </header>
-
-    <div class="section cc-store-home-wrap" id="HouseLegal">
-        <img class="container-fluid img-fluid mainLogo" src="./media/mainlogo.png" alt="House Legal logo">
-        <div class="house-header">
-            <div class="house-content homepage">
-                <div class="house-text">
-                    <div class="header-grande">
-                        <h1><b>House Legal</b></h1>
-                    </div>
-                    <div class="paragraph-bigger cc-bigger-white-light"><b>Tu mejor opción en protección
-                            jurídica de
-                            arrendamiento en México</b><br></div>
-                </div><a href="#explainer" class="button cc-jumbo-button cc-jumbo-white img-fluid">
-                    <div>Conoce más</div>
-                </a>
+    <main>
+        <video autoplay playsinline muted loop>
+            <source src="./media/bgclip.mp4" type="video/mp4">
+        </video>
+        <div class="section cc-store-home-wrap" data-aos="zoom-in" data-aos-duration="2500" id="HouseLegal">
+            <img class="container-fluid img-fluid mainLogo" src="./media/mainlogo.png" alt="House Legal logo">
+            <div class="house-header">
+                <div class="house-content homepage">
+                    <div class="house-text">
+                        <div class="header-grande">
+                            <h1><b>House Legal</b></h1>
+                        </div>
+                        <div class="paragraph-bigger cc-bigger-white-light"><b>Despacho jurídico inmobiliario</b><br>
+                        </div>
+                    </div><a href="#somos" class="button cc-jumbo-button cc-jumbo-white img-fluid">
+                        <div class="button-small">Conoce más</div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="divider"></div>
-    <section class="explainer1" id="somos">
+        <div class="divider"></div>
+    </main>
+    <div id="somos"></div>
+    <section class="explainer1" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-back"
+        data-aos-offset="50">
         <div class="container">
             <div class="label cc-light">
-                <h2>¿Quienes somos?</h2>
+                <h2>¿Quiénes somos?</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <p class="paragraph-light"><b>House Legal</b> es un despacho jurídico con más de 10 años de
-                        experiencia, especializado en servicios de protección jurídica para el arrendamiento de
-                        propiedades e inmuebles.<br><br>Estamos compromentidos en ofrecer la más alta calidad de
-                        nuestros servicios a nuestros clientes, con orientación y atención personalizada y oportuna para
-                        cumplir con nuestra misión:<br></p>
-                    <p class="textoSomos"><b>Proteger tu patrimonio.</b></p>
+                    <p class="paragraph-light"><b>House Legal</b> es un despacho de abogados especialistas en protección
+                        inmobiliaria. Nuestro objetivo principal es <b>cuidar el patrimonio de nuestros clientes</b>,
+                        por
+                        lo que nos ocupamos en la necesidad urgente de una ética profesional en el área jurídica de los
+                        bienes raíces, dando una correcta asesoría legal.
+                        <br><br>
+                        Somos un equipo profesional de abogados comprometidos con nuestros clientes y el cuidado de su
+                        patrimonio, brindando el mejor soporte legal de acuerdo a sus necesidades, buscando siempre la
+                        mejor negociación y conciliación de los asuntos con el menor costo y menor tiempo posible.
+                        <br><br>
+                        Nuestro compromiso es ofrecer la más alta calidad de
+                        nuestros servicios de forma ética, personalizada y oportuna.<br>
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <img class="img-fluid" src="./media/somos.jpg" alt="House Legal">
@@ -93,40 +125,126 @@
         </div>
     </section>
     <div class="divider"></div>
-    <section class="explainer2" id="explainer">
+    <div id="servicios"></div>
+    <section class="explainer1-2" data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-in-back"
+        data-aos-offset="50">
         <div class="container">
-            <div class="label cc-light">¿Qué es la protección jurídica de arrendamiento?</div>
-            <div class="row justify-content-center">
-                <div class="col-md-6"><img class="img-fluid" src="./media/explainer.jpg" alt="House Legal"></div>
-                <div class="col-md-6">
-                    <div>
-                        Usualmente se le conoce como <b>poliza jurídica</b> y es un acuerdo legal entre los
-                        arrendadores de inmuebles y sus arrendatarios, que les brinda protección ante algún
-                        incumplimiento
-                        del contrato.<br><br>
-                        <ul>
-                            <li><b>Si eres arrendador</b>, las pólizas jurídicas te protegen si tus inquilinos incumplen
-                                con
-                                el pago de las
-                                rentas, con la entrega del inmueble o incluso si abandonan la propiedad.</li><br><br>
-                            <li><b>Si eres
-                                    arrendatario</b>, te protegen en caso de que la propiedad tenga
-                                defectos ocultos o se anule el contrato anticipadamente y
-                                sin causa.</li><br>
-                        </ul>
+            <div class="label cc-light">
+                <h2>Servicios</h2>
+            </div>
+            <div class="card-group">
+                <div class="card" data-aos="flip-left" data-aos-delay="1800">
+                    <img src="./media/card3.jpg" class="card-img-top" width="50" height="250" alt="protección jurídica">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Protección juridica a futuro de arrendamiento</b></h5>
+                        <p class="card-text">A través de un contrato de prestación de servicios profesionales que
+                            brindan protección legal al dueño de un inmueble durante un contrato de arrendamiento.</p>
                     </div>
+
+                </div>
+                <div class="card" data-aos="flip-left" data-aos-delay="2000">
+                    <img src="./media/card1.jpg" class="card-img-top" width="50" height="250" alt="contratos">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Elaboración de contratos</b></h5>
+                        <p class="card-text">De arrendamiento e investigación de arrendatarios, fiadores y/u obligados
+                            solidlarios.</p>
+                    </div>
+
+                </div>
+                <div class="card" data-aos="flip-left" data-aos-delay="2200">
+                    <img src="./media/card2.jpg" class="card-img-top" width="50" height="250" alt="compra venta">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Contratos</b></h5>
+                        <p class="card-text">De compra - venta de inmuebles.</p>
+                    </div>
+
                 </div>
             </div>
         </div>
         </div>
     </section>
     <div class="divider"></div>
-    <section class="explainer3" id="servicios">
+    <div id="precios"></div>
+    <section class="explainer2" data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-in-back"
+        data-aos-offset="50">
         <div class="container">
             <div class="label cc-light">
-                <h2>Servicios</h2>
+                <h2>Precios</h2>
             </div>
-            <h3>Conoce los requisitos para contratar protección jurídica de arrendamiento</h3>
+            <div class="table-responsive" data-aos="zoom-out-down" data-aos-delay="1900">
+                <table class="table table-hover table-bordered table-striped align-middle border-dark">
+                    <thead>
+                        <tr class="table-dark">
+                            <th scope="col">Monto Renta</th>
+                            <th scope="col">Póliza Básica</th>
+                            <th scope="col">Póliza Premium</th>
+                            <th scope="col">Póliza Élite</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">$1,000 a $9,999</td>
+                            <td>$3,900</td>
+                            <td>$5,000</td>
+                            <td>$15,000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$10,000 a $15,000</td>
+                            <td>$4,500</td>
+                            <td>$6,000</td>
+                            <td>$15,000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$15,001 a $20,000</td>
+                            <td>$5,000</td>
+                            <td>$8,000</td>
+                            <td>$15,000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$20,001 a $25,000</td>
+                            <td>25% del valor de la renta mensual</td>
+                            <td>40% del valor de la renta mensual</td>
+                            <td>$15,000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$25,001 a $30,000</td>
+                            <td>25% del valor de la renta mensual</td>
+                            <td>40% del valor de la renta mensual</td>
+                            <td>$15,000</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$30,001 a $45,000</td>
+                            <td>25% del valor de la renta mensual</td>
+                            <td>40% del valor de la renta mensual</td>
+                            <td>50% del valor de la renta mensual</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$45,001 a $50,000</td>
+                            <td>25% del valor de la renta mensual</td>
+                            <td>40% del valor de la renta mensual</td>
+                            <td>50% del valor de la renta mensual</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$50,001 en adelante</td>
+                            <td>30% del valor de la renta mensual</td>
+                            <td>40% del valor de la renta mensual</td>
+                            <td>50% del valor de la renta mensual</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <div id="requisitos"></div>
+    <section class="explainer3" data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-in-back"
+        data-aos-offset="50">
+        <div class="container">
+            <div class="label cc-light">
+                <h2>Requisitos</h2>
+            </div>
+            <h3>Conoce lo que necesitas para contratar los servicios de protección jurídica de arrendamiento</h3>
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -303,50 +421,73 @@
         </div>
     </section>
     <div class="divider"></div>
-    <section id="contacto">
+    <div id="solicitud"></div>
+    <section class="explainer4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-back"
+        data-aos-offset="50">
+        <div class="container">
+            <div class="label cc-light">
+                <h2>¿Quieres asegurar tu patrimonio?</h2>
+            </div>
+            <h4>Descarga los siguientes documentos:<br>
+                <button class="btnform"><a href="./descargas/SolicitudPoliza.xls" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
+                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z"/>
+                  </svg><br><b>_SOLICITUD_</b></a></button>
+                  <button class="btnform"><a href="./descargas/Formulario.docx" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
+                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z"/>
+                  </svg><br><b>FORMULARIO</b></a></button><br>Llénalos, fírmalos y envíalos a:<br><a
+                    href="mailto:contacto@houselegal.com.mx"><b>contacto@houselegal.com.mx</b></a><br>¡Muy pronto nos
+                comunicaremos contigo!</h4>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <div id="contacto"></div>
+    <section class="contacto" data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-in-back"
+        data-aos-offset="50">
         <div class="container">
             <div class="cta-wrap">
-                <div>
-                    <div class="cta-text">
-                        <div class="header-small"><b>Contáctanos</b><br></div>
-                        <div>
-                            <p>Te brindaremos atención personalizada y
-                                orientación para que juntos cumplamos la misión de proteger tu patrimonio.<br></p>
-                        </div>
-                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                            <button type="button" class="btn btn-light"><a
-                                    href="mailto:houselegal.despacho@gmail.com"><svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16" fill="currentColor" class="bi bi-envelope-check-fill"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z" />
-                                        <path
-                                            d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z" />
-                                    </svg> E-mail </a></button>
-                            <button type="button" class="btn btn-info"><a href="tel:+525500000000"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
-                                    </svg> Teléfono </a></button>
-                            <button type="button" class="btn btn-success"><a
-                                    href="https://api.whatsapp.com/send?phone=525500000000&text=Hola+House+Legal.+Tengo+interes+en+los+servicios+de+proteccion+juridica+de+arrendamiento"
-                                    target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                        <path
-                                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                                    </svg> WhatsApp </a></button>
-                        </div>
+                <div class="cta-text">
+                    <div class="header-small"><b>Contáctanos</b><br></div>
+                    <div>
+                        <p>Te brindaremos atención personalizada y
+                            orientación para que juntos cumplamos la misión de proteger tu patrimonio.<br></p>
+                    </div>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-light"><a href="mailto:contacto@houselegal.com.mx"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope-check-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z" />
+                                    <path
+                                        d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z" />
+                                </svg> Email </a></button>
+                        <button type="button" class="btn btn-info"><a href="tel:+525554684980"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
+                                </svg> Teléfono </a></button>
+                        <button type="button" class="btn btn-success"><a
+                                href="https://api.whatsapp.com/send?phone=525554684980&text=Hola+House+Legal.+Tengo+interés+en+los+servicios+de+protección+jurídica+de+arrendamiento"
+                                target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg> WhatsApp </a></button>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
     <footer>
         <address class="direccion">
             <strong>House Legal</strong><br>
-            Avenida Siempre Viva 123
-            Naucalpan, Estado de México. 14610
+            Bosque de Lavanda 69 Int. 02. Colonia Bosque Esmeralda. Municipio Atizapán de Zaragoza. C.P. 52910, Estado
+            de México
         </address>
         <div class="container">
             <div class="footer-mentormenta">Sitio desarrollado por: <a href="https://www.mentormenta.com/"
@@ -354,12 +495,16 @@
         </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5c6eb5400253230156de2bd6"
         type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
     <script src="https://assets.website-files.com/5c6eb5400253230156de2bd6/js/webflow.35ee6e80f.js"
         type="text/javascript"></script>
-    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
