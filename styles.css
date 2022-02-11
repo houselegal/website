@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Jost', sans-serif;
   color: #ffffff;
   font-size: 16px;
   line-height: 28px;
@@ -116,6 +116,14 @@ footer {
     text-decoration: underline;
   }
 
+.inicial {
+letter-spacing: 6px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.logoInicial {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .social {
   display: inline;
