@@ -70,7 +70,15 @@ a:hover {
 }
 
 a:active {
-  color: #43464d;
+  color: #f8e800;
+}
+
+a.ligaBlanca {
+  display: inline-block;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  color: #f1f1f1;
+  text-decoration: underline;
 }
 
 ul {
@@ -186,6 +194,10 @@ font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #000;
  
+}
+
+.titulo-card {
+  text-align: center;
 }
 .contacto {
   background-color: rgba(0, 0, 0, 0.726);
