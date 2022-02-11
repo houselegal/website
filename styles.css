@@ -383,13 +383,13 @@ font-family: 'Montserrat', sans-serif;
   margin-left: auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 961px) {
 .mainLogo{
   display: block !important;
   max-width: 50% !important;
   height: 50% !important;
   align-items: center !important;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem !important;
 }
 .house-header {
   height: 350px;
