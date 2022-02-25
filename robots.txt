@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /styles.css
+Disallow: /media/
+Disallow: /descargas/
+Allow: /index.html
