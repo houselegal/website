@@ -88,11 +88,11 @@
         </nav>
         </div>
     </header> 
-    <main>
+    <main id="HouseLegal">
         <video poster="./media/bg.png" autoplay playsinline muted loop>
             <source src="./media/bgclip.mp4" type="video/mp4">
         </video>
-        <div class="section cc-store-home-wrap" data-aos="zoom-in" data-aos-duration="2500" id="HouseLegal">
+        <div class="section cc-store-home-wrap" data-aos="zoom-in" data-aos-duration="2500">
             <img class="container-fluid img-fluid mainLogo" src="./media/mainlogo.png" alt="House Legal logo">
             <div class="house-header">
                 <div class="house-content homepage">
@@ -100,6 +100,7 @@
                         <div class="header-grande">
                             <h1 class="logoInicial"><b>House Legal</b></h1>
                         </div>
+                        <div id="somos"></div>
                         <div class="inicial paragraph-bigger cc-bigger-white-light"><b>Despacho Jurídico
                                 Inmobiliario</b><br>
                         </div>
@@ -111,7 +112,6 @@
         </div>
         <div class="divider"></div>
     </main>
-    <div id="somos"></div>
     <section class="explainer1" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-back"
         data-aos-offset="50">
         <div class="container">
@@ -135,13 +135,13 @@
                     </p>
                 </div>
                 <div class="col-md-6">
+                    <div id="servicios"></div>
                     <img class="img-fluid" src="./media/somos.jpg" alt="House Legal">
                 </div>
             </div>
         </div>
     </section>
     <div class="divider"></div>
-    <div id="servicios"></div>
     <section class="explainer1-2" data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-in-back"
         data-aos-offset="50">
         <div class="container">
@@ -165,22 +165,20 @@
                         <p class="card-text">De arrendamiento e investigación de arrendatarios, fiadores y/u obligados
                             solidlarios.</p>
                     </div>
-
+                    
                 </div>
                 <div class="card" data-aos="fade-in" data-aos-duration="1700" data-aos-delay="1900">
-                    <img src="./media/card2.jpg" class="card-img-top" width="50" height="250" alt="compra venta">
+                    <img id="precios" src="./media/card2.jpg" class="card-img-top" width="50" height="250" alt="compra venta">
                     <div class="card-body">
                         <h5 class="card-title titulo-card"><b>Contratos</b></h5>
                         <p class="card-text">De compra - venta de inmuebles.</p>
                     </div>
-
                 </div>
             </div>
-        </div>
+            </div>
         </div>
     </section>
     <div class="divider"></div>
-    <div id="precios"></div>
     <section class="explainer2" data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-in-back"
         data-aos-offset="50">
         <div class="container">
@@ -216,7 +214,7 @@
                             <td scope="row">$25,000 a $29,999</td>
                             <td>$7,650</td>
                         </tr>
-                        <tr>
+                        <tr id="requisitos">
                             <td scope="row">$30,000 a $49,999</td>
                             <td>25% del valor de la renta mensual</td>
                         </tr>
@@ -233,7 +231,6 @@
         </div>
     </section>
     <div class="divider"></div>
-    <div id="requisitos"></div>
     <section class="explainer3" data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-in-back"
         data-aos-offset="50">
         <div class="container">
@@ -406,7 +403,7 @@
                 </div>
             </div>
             <div>
-                <p>La documentación que se solicita para la investigación de los prospectos debe ser visible y
+                <p id="solicitud">La documentación que se solicita para la investigación de los prospectos debe ser visible y
                     digitalizada para enviarse a los correos electrónicos: <a href="mailto:contacto@houselegal.com.mx"
                         class="ligaBlanca"><b>contacto@houselegal.com.mx</b></a> y <a
                         href="mailto:houselegalmx@gmail.com" class="ligaBlanca"><b>houselegalmx@gmail.com</b></a>.</p>
@@ -429,7 +426,7 @@
         </div>
     </section>
     <div class="divider"></div>
-    <div id="solicitud"></div>
+    <!-- <div id="solicitud"></div> -->
     <section class="explainer4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-back"
         data-aos-offset="50">
         <div class="container">
@@ -524,6 +521,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script>
+            $('.navbar-nav>li>a').on('click', function(){
+                $('.navbar-collapse').collapse('hide');
+            });
+        </script>
 </body>
 
 </html>
