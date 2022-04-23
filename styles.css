@@ -108,7 +108,11 @@ header {
 }
 footer {
   text-align: center !important;
-  background-color: #e1e1e1b9;
+  background-color: #ffffff;
+}
+
+.invert_effect{
+  filter: invert(1);
 }
 
 .btnform {
@@ -147,37 +151,45 @@ font-family: 'Montserrat', sans-serif;
   align-items: center !important;
 }
 
+.tituloQuienes{
+  color:#eaca8e;
+  text-align: left !important;
+}
 .explainer1 {
-  background-color: #f6cc8edc;
+  background-color: #000d3a;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-right: auto;
   margin-left: auto;
   text-align: justify;
-  color: #000;
+  color: #ffffff;
 }
 .explainer1-2 {
-  background-color: #2d497dde;
+  color:#ffffff;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-right: auto;
   margin-left: auto;
   text-align: justify;
+}
+.cc-bold{
+  text-align: center !important;
 }
 
 .explainer2 {
-  background-color: #eaeaeae1;
+  background-color: #ffffff;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-right: auto;
   margin-left: auto;
   text-align: justify;
-  color: #000;
+  color: #000d3a;
   align-items: center !important;
 }
 
 .explainer3 {
-  background-color: #000637c9;
+  background-color: #eaca8e;
+  color:#000d3a;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-right: auto;
@@ -185,22 +197,24 @@ font-family: 'Montserrat', sans-serif;
   text-align: justify;
 }
 .explainer4 {
-  background-color: #f6cc8edc;
+  background-color: #ffffff;
   align-content: center !important;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  color: #000;
+  color: #000d3a;
  
 }
 
 .titulo-card {
   text-align: center;
+  color:#ffffff;
 }
 .contacto {
-  background-color: rgba(0, 0, 0, 0.726);
+  background-color:#010b39;
+  color:#ffffff;
 }
 
 .card {
@@ -253,10 +267,20 @@ font-family: 'Montserrat', sans-serif;
   color: #000;
 }
 
+.direccion-headline {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 110%;
+  color: #000;
+}
 .footer-mentormenta {
   font-size: 12px;
-  line-height: 20px;
+  line-height: 14px;
   text-align: center;
+  color: #000;
 }
 
 .paragraph-bigger {
@@ -412,4 +436,18 @@ font-family: 'Montserrat', sans-serif;
 .button-small {
   font-size: 0.5rem !important;
 }
+}
+.modal-content{
+  text-align: justify !important;
+  font-size: 90%;
+  color:#faffff !important;
+  background-color:#000d3a
+  ;
+}
+.modal-header{
+  background-color:#eaca8e;
+  color:#1a1513 !important;
+}
+.modal-footer{
+  background-color:#eaca8e;
 }
