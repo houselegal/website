@@ -440,7 +440,7 @@ font-family: 'Montserrat', sans-serif;
 
 @media (max-width: 767.9px) {
   #somos-img {
-  display: none;
+  display: none !important;
   }
 }
 .modal-content{
