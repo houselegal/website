@@ -439,7 +439,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 767.9px) {
-  #somos {
+  #somos-img {
   display: none;
   }
 }
@@ -458,7 +458,7 @@ font-family: 'Montserrat', sans-serif;
   background-color:#eaca8e;
 }
 
-#somos {
+#somos-img {
   height: 90%;
   width: 90%;
 }
