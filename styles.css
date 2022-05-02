@@ -210,7 +210,7 @@ font-family: 'Montserrat', sans-serif;
 
 .titulo-card {
   text-align: center;
-  color:#ffffff;
+  color:#000d3a;
 }
 .contacto {
   background-color:#010b39;
@@ -437,6 +437,12 @@ font-family: 'Montserrat', sans-serif;
   font-size: 0.5rem !important;
 }
 }
+
+@media (max-width: 767.9px) {
+  #somos {
+  display: none;
+  }
+}
 .modal-content{
   text-align: justify !important;
   font-size: 90%;
@@ -450,4 +456,9 @@ font-family: 'Montserrat', sans-serif;
 }
 .modal-footer{
   background-color:#eaca8e;
+}
+
+#somos {
+  height: 90%;
+  width: 90%;
 }
